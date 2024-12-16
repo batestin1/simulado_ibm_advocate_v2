@@ -103,6 +103,17 @@ if "perguntas" not in st.session_state:
             ],
             "resposta": "a"
         },
+
+              {
+            "pergunta": "List the three resiliency levels of IBM Cloud Object Storage",
+            "alternativas": [
+                "a) Cross region, regional, and single data center",
+                "b) Regional, dual-region, and single data center",
+                "c) One zone, two zone, and three zone",
+                "d) Cross continent, regional and single data"
+            ],
+            "resposta": "a"
+        },
                 {
             "pergunta": "Which practice allows IBM CLOUD to provide layered security controls across network and infrastructure?",
             "alternativas": [
@@ -485,6 +496,17 @@ if "perguntas" not in st.session_state:
                 "d) Application authentication"
             ],
             "resposta": "b"
+        },
+
+                        {
+            "pergunta": "What IBM CLOUD VMware option is a streamlined and optimized ordering platform that offers flexibility to design and build a hosted VMware environment?",
+            "alternativas": [
+                "a) vCenter Server",
+                "b) VMware Shared",
+                "c) VMware Regulated",
+                "d) VMware vSphere"
+            ],
+            "resposta": "d"
         },
 
                 {
