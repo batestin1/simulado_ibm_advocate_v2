@@ -136,7 +136,7 @@ if "perguntas" not in st.session_state:
         },
 
                 {
-            "pergunta": "Define data centers.",
+            "pergunta": "Define data centers."
             "alternativas": [
                 "a) Centers built in multi-zone regions",
                 "b) Large warehouses containing pods and racks or standardized containers of computing resourcers",
@@ -169,7 +169,7 @@ if "perguntas" not in st.session_state:
         },
 
                 {
-            "pergunta": "How does virtualization assist with cloud computing?",
+            "pergunta": "How does virtualization assist with cloud computing?"
             "alternativas": [
                 "a) Speeds up mathematical calculations",
                 "b) Facilitates the management of keys",
@@ -224,7 +224,7 @@ if "perguntas" not in st.session_state:
         },
 
                 {
-            "pergunta": "Lower IT costs, flexible, efficient, secure, and faster time to market are all benefits of cloud _______."
+            "pergunta": "Lower IT costs, flexible, efficient, secure, and faster time to market are all benefits of cloud _______.",
             "alternativas": [
                 "a) clustering",
                 "b) computing",
