@@ -169,7 +169,7 @@ if "perguntas" not in st.session_state:
         },
 
                 {
-            "pergunta": "How does virtualization assist with cloud computing?"
+            "pergunta": "How does virtualization assist with cloud computing?",
             "alternativas": [
                 "a) Speeds up mathematical calculations",
                 "b) Facilitates the management of keys",
