@@ -559,6 +559,7 @@ elif pagina == "Responder Simulado":
         for idx, pergunta in enumerate(st.session_state.perguntas):
             st.write(f"**{idx + 1}. {pergunta['pergunta']}**")
             resposta = st.radio(
+                
                 pergunta["alternativas"],
                 key=f"resposta_{idx}"
             )
