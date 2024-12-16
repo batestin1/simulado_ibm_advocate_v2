@@ -224,7 +224,7 @@ if "perguntas" not in st.session_state:
         },
 
                 {
-            "pergunta": "Lower IT costs, flexible, efficient, secure, and faster time to market are all benefits of cloud _______.",
+            "pergunta": "Lower IT costs, flexible, efficient, secure, and faster time to market are all benefits of cloud _______."
             "alternativas": [
                 "a) clustering",
                 "b) computing",
@@ -559,7 +559,7 @@ elif pagina == "Responder Simulado":
         for idx, pergunta in enumerate(st.session_state.perguntas):
             st.write(f"**{idx + 1}. {pergunta['pergunta']}**")
             resposta = st.radio(
-                {idx + 1}:",
+                f"Escolha uma alternativa para a pergunta {idx + 1}:",
                 pergunta["alternativas"],
                 key=f"resposta_{idx}"
             )
