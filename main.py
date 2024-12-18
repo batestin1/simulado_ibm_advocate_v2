@@ -267,6 +267,72 @@ if "perguntas" not in st.session_state:
             "resposta": "c"
         },
 
+                        {
+            "pergunta": "Which IBM Cloud service allows user to build, run, and manage applications across multiple clouds without any changes to the underlying code",
+            "alternativas": [
+                "a) IBM WATSON Assistant",
+                "b) IBM Cloud Kubernetes Serivce",
+                "c) IBM Cloud Foundry",
+                "d) IBM Cloud Pak for Applications"
+            ],
+            "resposta": "c"
+        },
+
+                        {
+            "pergunta": "What is a benefit of using a public cloud platform?",
+            "alternativas": [
+                "a) Cost savings through pay-as-you-go pricing model",
+                "b) Increased security due to dedicated resources",
+                "c) Limited scalability options",
+                "d) Data stored on physical servers at organization's location"
+            ],
+            "resposta": "a"
+        },
+
+                        {
+            "pergunta": "Which IBM Cloud Service is best suited for running large-scale data analytics workloads?",
+            "alternativas": [
+                "a) IBM Cloud Virtual Servers",
+                "b) IBM Cloud Object Storage",
+                "c) IBM Cloud Databases for PostgreSQL",
+                "d) IBM Cloud Pak for Data"
+            ],
+            "resposta": "d"
+        },
+
+                        {
+            "pergunta": "What factors can affect IBM Cloud pricing?",
+            "alternativas": [
+                "a) Instance Type",
+                "b) Storage Type",
+                "c) Data Transfer",
+                "d) Geographical Region"
+            ],
+            "resposta": "d"
+        },
+
+                        {
+            "pergunta": "What programming language are supported by IBM WATSON?",
+            "alternativas": [
+                "a) Python and JAVA",
+                "b) C++ and Ruby",
+                "c) Node.js and Swift",
+                "d) All of the above"
+            ],
+            "resposta": "a"
+        },
+
+                        {
+            "pergunta": "What is a key benefit of using IBM Cloud DevOps tools?",
+            "alternativas": [
+                "a) Automating manual processes",
+                "b) Increasing time spent on troubleshooting",
+                "c) Reducing team collaboration",
+                "d) Improving team communication"
+            ],
+            "resposta": "a"
+        },
+
                 {
             "pergunta": "When thinking about migrating workloads to IBM Cloud, what is a common key driver?",
             "alternativas": [
