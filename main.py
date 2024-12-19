@@ -628,7 +628,7 @@ if pagina == "Cadastrar Perguntas":
         
         if enviar:
             st.session_state.perguntas.append({
-                "pergunta": pergunta,
+                "pergunta ": pergunta,
                 "alternativas": [
                     f"a) {alternativa_a}",
                     f"b) {alternativa_b}",
@@ -645,7 +645,7 @@ elif pagina == "Responder Simulado":
     with st.form("simulado"):
         respostas = []
         for idx, pergunta in enumerate(st.session_state.perguntas):
-            st.write(f"**{idx + 1}. {pergunta['pergunta']}**")
+            st.write(f"<h1> **{idx + 1}. {pergunta['pergunta']}** </h1>")
             resposta = st.radio(
                 f" ",
                 pergunta["alternativas"],
