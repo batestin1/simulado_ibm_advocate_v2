@@ -433,7 +433,7 @@ if "perguntas" not in st.session_state:
         },
 
                 {
-            "pergunta": "Whatis featured in IBM Cloud Hyper Protect Crypto Services and is a dedicated key management and hardware security module (HSM)?",
+            "pergunta": "What is featured in IBM Cloud Hyper Protect Crypto Services and is a dedicated key management and hardware security module (HSM)?",
             "alternativas": [
                 "a) BYOK (BRING YOUR OWN KEY)",
                 "b) RYOK (RENT YOUR OWN KEY)",
