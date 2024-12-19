@@ -645,7 +645,7 @@ elif pagina == "Responder Simulado":
     with st.form("simulado"):
         respostas = []
         for idx, pergunta in enumerate(st.session_state.perguntas):
-            st.write(f"<h1> **{idx + 1}. {pergunta['pergunta']}** </h1>")
+            st.write(f"<h1>{idx + 1}. {pergunta['pergunta']}</h1>")
             resposta = st.radio(
                 f" ",
                 pergunta["alternativas"],
